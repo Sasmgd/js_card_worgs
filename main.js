@@ -47,8 +47,6 @@ function createCard(urll,names){
     txt.innerHTML=names;
 }
 for(let i=0;i<products.length;i++){
-    for(let j=0;j<products[i].length;j++){
         createCard(products[i][1],products[i][0]);
-    }
 }
 
